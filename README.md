@@ -11,6 +11,11 @@
 
 A [Claude](https://claude.com) skill that turns a single sentence into a complete Vox-style paper-collage animated video — researched script, per-clip prompts, every image and clip generated, chained into one continuous animation — without you ever leaving the chat.
 
+It does two things:
+
+- **Make ad videos** — Vox Style Ad Animation for your product or offer, ready to run paid or drop organic.
+- **Make explainers for faceless YouTube channels** — editorial storytelling that sells nothing.
+
 You give it a topic or a product. The skill walks a fixed gate flow — content mode, a quick research pass, script and prompt approval — then generates every clip through the [MaxFusion](https://maxfusion.ai) MCP (Google Omni, 10-second clips) and returns the finished clips in chat. The consistency trick: it extracts the last frame of each finished clip and passes it as the reference into the next clip's generation, which is why the result plays as one continuous animation instead of disconnected AI shots.
 
 ## Examples
